@@ -1,42 +1,227 @@
-#root {
-  max-width: 1280px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Bootle';
+  src: url('./assets/fonts/Bootle-4B9l.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.beatles-site {
+  min-height: 100vh;
+  background: white;
+  color: black;
+}
+
+/* Navbar Styles */
+.navbar {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 3px solid #8fc9e5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  padding: 1rem 2rem;
+}
+
+.nav-brand h1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Georgia', serif;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  height: 100%;
+}
+
+.nav-links li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  background: transparent;
+  color: #f0f0f0;
+  border: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  background: #41474f;
+  color: #fff;
+}
+
+.nav-link.active {
+  background: #B2C9D9;
+  color: #000000;
+  box-shadow: inset 0 -3px 0 #ffffff;
+}
+
+/* Content Area */
+.content {
+  max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 3rem 2rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.page {
+  animation: fadeIn 0.5s ease-in;
 }
 
-@keyframes logo-spin {
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.page h2 {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  border: 1px solid #B2C9D9;
+  line-height: 1.8;
+}
+
+article p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: black;
+}
+
+article h3 {
+  color: black;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+article section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(233, 69, 96, 0.2);
+}
+
+article section:last-child {
+  border-bottom: none;
+}
+
+article a {
+  color: steelblue;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+article a:hover {
+  border-bottom-color: #294f6c;
+}
+
+article em {
+  color: black;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .nav-brand {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
 
-.read-the-docs {
-  color: #888;
+  .nav-brand h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+
+  .content {
+    padding: 2rem 1rem;
+  }
+
+  .page h2 {
+    font-size: 2rem;
+  }
+
+  article {
+    padding: 1.5rem;
+  }
+
+  article h3 {
+    font-size: 1.5rem;
+  }
+
+  article p {
+    font-size: 1rem;
+    color: black;
+  }
 }
