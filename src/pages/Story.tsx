@@ -14,44 +14,58 @@ export default function Story() {
                 <hr></hr>
                 <br></br>
 
-                <p style={{ fontWeight: "bold" }}>1926</p>
+                <p style={{fontWeight: "bold"}}>1926</p>
                 <p>
                     <ul>
-                        <li>January 3: <a href="https://en.wikipedia.org/wiki/George_Martin" target="_blank">George Martin</a> is born in Highbury, London. He would be the Beatles' producer.</li>
+                        <li>January 3: <a href="https://en.wikipedia.org/wiki/George_Martin" target="_blank">George
+                            Martin</a> is born in Highbury, London. He would be the Beatles' producer.
+                        </li>
                     </ul>
                 </p>
 
-                <p style={{ fontWeight: "bold"}}>1934</p>
+                <p style={{fontWeight: "bold"}}>1934</p>
                 <p>
                     <ul>
-                        <li>September 19: <a href="https://en.wikipedia.org/wiki/Brian_Epstein" target="_blank">Brian Epstein</a> is born in Liverpool. He would be the Beatles' manager until his death in 67.</li>
+                        <li>September 19: <a href="https://en.wikipedia.org/wiki/Brian_Epstein" target="_blank">Brian
+                            Epstein</a> is born in Liverpool. He would be the Beatles' manager until his death in 67.
+                        </li>
                     </ul>
                 </p>
 
-                <p style={{ fontWeight: "bold"}}>1940</p>
+                <p style={{fontWeight: "bold"}}>1940</p>
                 <p>
                     <ul>
-                        <li>June 24: <a href="https://en.wikipedia.org/wiki/Stuart_Sutcliffe" target="_blank">Stuart Sutcliffe</a> is born in Edinburgh (Scotland).</li>
+                        <li>June 24: <a href="https://en.wikipedia.org/wiki/Stuart_Sutcliffe" target="_blank">Stuart
+                            Sutcliffe</a> is born in Edinburgh (Scotland).
+                        </li>
                     </ul>
                     <ul>
-                        <li>July 7: <a href="https://en.wikipedia.org/wiki/Ringo_Starr" target="_blank">Richard Starky</a> (Later on only referred as Ringo Starr) is born in Liverpool.</li>
+                        <li>July 7: <a href="https://en.wikipedia.org/wiki/Ringo_Starr" target="_blank">Richard
+                            Starky</a> (Later on only referred as Ringo Starr) is born in Liverpool.
+                        </li>
                     </ul>
                     <ul>
-                        <li>October 9: <a href="https://en.wikipedia.org/wiki/John_Lennon" target="_blank">John Winston Lennon</a> is born in Liverpool.</li>
+                        <li>October 9: <a href="https://en.wikipedia.org/wiki/John_Lennon" target="_blank">John Winston
+                            Lennon</a> is born in Liverpool.
+                        </li>
                     </ul>
                 </p>
 
-                <p style={{ fontWeight: "bold"}}>1942</p>
+                <p style={{fontWeight: "bold"}}>1942</p>
                 <p>
                     <ul>
-                        <li>June 18: <a href="https://en.wikipedia.org/wiki/Paul_McCartney" target="_blank">John Paul McCartney</a> is born in Liverpool.</li>
+                        <li>June 18: <a href="https://en.wikipedia.org/wiki/Paul_McCartney" target="_blank">John Paul
+                            McCartney</a> is born in Liverpool.
+                        </li>
                     </ul>
                 </p>
 
-                <p style={{ fontWeight: "bold"}}>1943</p>
+                <p style={{fontWeight: "bold"}}>1943</p>
                 <p>
                     <ul>
-                        <li>February 25: <a href="https://en.wikipedia.org/wiki/George_Harrison" target="_blank">George Harrison</a> is born in Liverpool.</li>
+                        <li>February 25: <a href="https://en.wikipedia.org/wiki/George_Harrison" target="_blank">George
+                            Harrison</a> is born in Liverpool.
+                        </li>
                     </ul>
                 </p>
 
@@ -59,23 +73,24 @@ export default function Story() {
                 <hr></hr>
                 <br></br>
 
-                <p style={{ fontWeight: "bold"}}>1954</p>
+                <p style={{fontWeight: "bold"}}>1954</p>
                 <p>
                     <ul>
                         <li>September: Paul meets George on the bus on their way home from their school.</li>
                     </ul>
                 </p>
 
-                <p style={{ fontWeight: "bold"}}>1956</p>
+                <p style={{fontWeight: "bold"}}>1956</p>
                 <p>
                     <ul>
                         <li>October 31: Paul's mother, Mary, dies of breast cancer.</li>
                     </ul>
                 </p>
 
-                <p style={{ fontWeight: "bold"}}>1957</p>
+                <p style={{fontWeight: "bold"}}>1957</p>
                 <p>
-                    Paul and George begin playing guitars together in Harrison's front room. John starts a skiffle group, who eventually become the Quarryman named after the school that most of its members attended.
+                    Paul and George begin playing guitars together in Harrison's front room. John starts a skiffle
+                    group, who eventually become the Quarryman named after the school that most of its members attended.
                     <ul>
                         <li>July 6: Paul meets John at the Woolton Parish Church where the Quarrymen had a concert.</li>
                         <li>August 7: The Quarrymen play in the Cavern for the first time.</li>
@@ -83,7 +98,7 @@ export default function Story() {
                     </ul>
                 </p>
 
-                <p style={{ fontWeight: "bold"}}>1958</p>
+                <p style={{fontWeight: "bold"}}>1958</p>
                 <p>
                     <ul>
                         <li>January 24: Paul plays in the Cavern, and a few weeks later, George joins.</li>
@@ -117,7 +132,9 @@ export default function Story() {
                 <p style={{fontWeight: "bold"}}>1959</p>
                 <p>
                     <ul>
-                        <li>September: The Quarrymen start playing regularly at the Casbah club in Liverpool, shortly after they change their name to "Johnny & the Moondogs".</li>
+                        <li>September: The Quarrymen start playing regularly at the Casbah club in Liverpool, shortly
+                            after they change their name to "Johnny & the Moondogs".
+                        </li>
                     </ul>
                 </p>
 
@@ -128,10 +145,19 @@ export default function Story() {
                     <ul>
                         <li>January 21: Stuart Sutcliffe buys a bass guitar in order to join the Quarrymen.</li>
                         <li>May 5: The Quarrymen change their name to the Silver Beetles.</li>
-                        <li>August 17: The Beatles play at the Indra Club in Hamburg for the first time. They play here for the next 48 days.</li>
-                        <li>Later on in Hamburg, the boys start experimenting with Preludin, a stimulant to stay away and energetic during their extremely long sets. Sometimes playing 6-8 hours a night in the Club</li>
-                        <li>November 21: Harrison is deported from Hamburg for being under 18 and lacking a work premit. The Beatles continue without him.</li>
-                        <li>December 1: McCartney and Pete Best (their drummer at the time) are deported from Hamburg after being accused of arson.</li>
+                        <li>August 17: The Beatles play at the Indra Club in Hamburg for the first time. They play here
+                            for the next 48 days.
+                        </li>
+                        <li>Later on in Hamburg, the boys start experimenting with Preludin, a stimulant to stay away
+                            and energetic during their extremely long sets. Sometimes playing 6-8 hours a night in the
+                            Club
+                        </li>
+                        <li>November 21: Harrison is deported from Hamburg for being under 18 and lacking a work premit.
+                            The Beatles continue without him.
+                        </li>
+                        <li>December 1: McCartney and Pete Best (their drummer at the time) are deported from Hamburg
+                            after being accused of arson.
+                        </li>
                     </ul>
                 </p>
 
@@ -149,7 +175,9 @@ export default function Story() {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerPolicy="strict-origin-when-cross-origin"
                             allowFullScreen></iframe>
-                    <li>Deutsche Grammophone representatives meet Epstein in Liverpool to discuss the possibility of releasing "My Bonnie" in the UK.</li>
+                    <li>Deutsche Grammophone representatives meet Epstein in Liverpool to discuss the possibility of
+                        releasing "My Bonnie" in the UK.
+                    </li>
                 </p>
 
                 <h3>1962</h3>
@@ -317,9 +345,372 @@ export default function Story() {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin"
                                 allowFullScreen></iframe>
-                        <li>(Fun-Fact): Later in an interview George Harrison reacted to this video saying: <div style={{ fontFamily: "cursive" }}>"Good song though, not a bad song! John was as blind as a bat and he never wore his glasses, *laughing* so he couldn't see anything!"</div></li>
+                        <li>(Fun-Fact): Later in an interview George Harrison reacted to this video saying: <div
+                            style={{fontFamily: "cursive"}}>"Good song though, not a bad song! John was as blind as a
+                            bat and he never wore his glasses, *laughing* so he couldn't see anything!"</div></li>
                         <br/> Check out the full interview in the interviews section!
-                        <li></li>
+                        <li>December 9: "Roll OverBeethoven" / "Please Mister Postman" released as a single in the
+                            UK.</li>
+
+                        <h3>1964</h3>
+                        <hr></hr>
+                        <br></br>
+
+                        <p style={{fontWeight: "bold"}}>January</p>
+                        <li>January 20: <a href="https://en.wikipedia.org/wiki/Meet_The_Beatles" target="_blank">Meet
+                            the Beatles!</a> is released. (2. Studio Album)
+                        </li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/UVKU6SevefY?si=Y1qQd4rwE9SazKHd"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <li>January 29: The Beatles record in Paris the German single "Komm, gib mir deine Hand" (I want
+                            to hold your hand) / "Sie liebt dich" (She Loves You), their first and only recording
+                            session outside of England for EMI.
+                        </li>
+
+                        <p style={{fontWeight: "bold"}}>February</p>
+                        <li>February 7: The Beatles arrive at John F. Kennedy International Airport in New York.</li>
+                        <li>February 9: The Beatles make their first appearance on The Ed Sullivan Show</li>
+
+                        <p style={{fontWeight: "bold"}}>March</p>
+                        <li>March 2: "A Hard Day's Night" begins filming.</li>
+
+                        <p style={{fontWeight: "bold"}}>July</p>
+                        <li>July 6: <a href="https://en.wikipedia.org/wiki/A_Hard_Day%27s_Night_(film)"
+                                       target="_blank">A Hard Day's Night (movie)</a> is released
+                        </li>
+                        <li>Sneak peak into the movie:</li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/uJvyAKJhOcI?si=Pur4ZqeakFjjKWvq"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <li>July 10: <a href="https://en.wikipedia.org/wiki/A_Hard_Day%27s_Night_(album)"
+                                        target="_blank">A Hard Day's Night</a> is released (3. Studio Album)
+                        </li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/zx2TFk0vh1I?si=bYA2OqUSEhp4RjVb"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+
+                        <p style={{fontWeight: "bold"}}>November</p>
+                        <li>November 23: "I Feel Fine" / "She's a Woman" is released as a single.</li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/WrAV5EVI4tU?si=G7eVrfUm1WWUB9XS"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+
+                        <p style={{fontWeight: "bold"}}>November</p>
+                        <li>December 4: <a href="https://en.wikipedia.org/wiki/Beatles_For_Sale"
+                                           target="_blank">Beatles For Sale</a> is released (4. Studio Album) (3 ALBUMS
+                            IN 1 YEAR!!!!)
+                        </li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/kle2xHhRHg4?si=MWEu-C53u5sygYPE"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+
+                        <h3>1965</h3>
+                        <hr></hr>
+                        <br></br>
+
+                        <p style={{fontWeight: "bold"}}>February</p>
+
+                        <li> February 11: Ringo marries Maureen Cox</li>
+                        <img
+                            src="https://www.beatlesbible.com/wp/media/650211-ringo-starr-maureen-starkey-wedding_01.jpg"
+                            alt="Ringo Starr and Maureen Cox"
+                            width="600"/><br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>April</p>
+                        <li>April 6: "Ticket to Ride" / "Yes It Is" is released as a single</li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>July</p>
+                        <li>July 29 <a href="https://en.wikipedia.org/wiki/Help!_(film)"
+                                       target="_blank">Help!</a> the film is released.
+                        </li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/ZJyVl9x53Kc?si=adUgrnB5eV72hiUD"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>August</p>
+                        <li>August 6: <a href="https://en.wikipedia.org/wiki/Help!_(album)"
+                                         target="_blank">Help!</a> album is released (5. Studio Album)
+                        </li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/2Q_ZzBGPdqE?si=S3S03gPi0ScPfu8Y"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>September</p>
+                        <li>September 13: <a href="https://en.wikipedia.org/wiki/Zak_Starkey"
+                                             target="_blank">Zak Starkey</a> is born to Ringo Starr and Maureen Starkey.
+                        </li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>October</p>
+                        <li>October 26: The Beatles recieve MBE (MBE stands for Member of the Most Excellent Order of
+                            the British Empire.)
+                        </li>
+
+
+                        <p style={{fontWeight: "bold"}}>December</p>
+                        <li>December 3: <a href="https://en.wikipedia.org/wiki/Rubber_Soul"
+                                           target="_blank">Rubber Soul</a> (the pot album) is released (6. Studio Album)
+                        </li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/YBcdt6DsLQA?si=sZi0iM_UEStYLtJb"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <li>December 3: "We Can Work It Out" / "Day Tripper" is released as a single.</li>
+
+                        <h3>1966</h3>
+                        <hr></hr>
+                        <br></br>
+
+                        <p style={{fontWeight: "bold"}}>January</p>
+                        <li>January 21: Harrison marries the stunning model, <a
+                            href="https://en.wikipedia.org/wiki/Pattie_Boyd"
+                            target="_blank">Pattie Boyd</a>. He met her during the making of the Hard Day's Night movie
+                        </li>
+
+                        <img
+                            src="https://assets.vogue.com/photos/5a622ab3fdef6d36651d63a2/master/w_1280,c_limit/00-story-image-patti-boyd.jpg"
+                            alt="George Harrison and Pattie Boyd"
+                            width="600"/><br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>April</p>
+                        <li>April 6: The Beatles start recording sessions for their album <a
+                            href="https://en.wikipedia.org/wiki/Revolver_(Beatles_album)"
+                            target="_blank">Revolver</a> and "Paperback Writer" / "Rain" single. These sessions end on
+                            22 June 1966.
+                        </li>
+                        <br/>
+                        <p style={{fontWeight: "bold"}}>May</p>
+                        <li>May 10: "Paperback Writer" / "Rain" is released</li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/yYvkICbTZIQ?si=bJs-5GrOFIqJ7oWz"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>July</p>
+                        <li>July 15: "More popular than Jesus" scandal sparks wild reactions in southeast US. (The topic
+                            is covered in more detail in the "Philosophy" section
+                        </li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>August</p>
+                        <li>August 8: Revolver is released (7. Studio Album)</li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/r95-7zfgtLw?si=7oxSTyIzKwA0f56b"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <li>August 29: The Beatles play their final paid concert at Caldestick Park in San Fransico</li>
+
+                        <p style={{fontWeight: "bold"}}>November</p>
+                        <li>November 9: John Lennon meets Yoko Ono at the Indica Gallery (London) and fells in love with
+                            her for seeing her artistic side:
+                        </li>
+                        <img
+                            src="https://live.staticflickr.com/3119/2891959833_b9b54e7a39.jpg"
+                            alt="Yoko's art"
+                            width="600"/><br/><br/>
+                        <img
+                            src="https://live.staticflickr.com/3086/2891959913_c8f9d22142.jpg"
+                            alt="YES"
+                            width="600"/><br/><br/>
+
+                        <li>November 24: The Beatles start recording session for their album <a
+                            href={"https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band"}
+                            target="_blank">Sgt. Pepper's
+                            Lonely Hearts Club Band</a> and "Strawberry Fields Forever" / "Penny Lane" single. These
+                            sessions end on 21 April 1967.
+                        </li>
+
+                        <h3>1967</h3>
+                        <hr></hr>
+                        <br></br>
+
+                        <p style={{fontWeight: "bold"}}>January</p>
+                        <li>January 26: Without a contract since June 3, 1966, The Beatles sign a new 9 year contract
+                            with Parlophone.
+                        </li>
+
+                        <p style={{fontWeight: "bold"}}>February</p>
+                        <li>February 13: "Strawberry Fields Forever" / "Penny Lane" is released as a single.</li>
+
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/HtUH9z_Oey8?si=zIC01_Z9M1c6-6ne"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>April</p>
+                        <li>April 19: <a href={"https://en.wikipedia.org/wiki/Apple_Corps"} target="_blank">Apple
+                            Corps</a> is formed.
+                        </li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>June</p>
+                        <li>June 1: "Sgt. Pepper's Lonely Hearts Club Band" is released (8. Studio Album)</li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/VtXl8xAPAtA?si=xytVpls4JUP1LH1v"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <li>June 25: Live taping of "All You Need Is Love" for "Our World" global broadcast.</li>
+
+                        <p style={{fontWeight: "bold"}}>July</p>
+                        <li>July 7: "All You Need Is Love" / "Baby, You're a Rich Man" is released as a single</li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>August</p>
+                        <li>August 19: Jason Starkey is born to Ringo Starr and Maureen Starkey.</li>
+                        <li>August 25: The Beatles and their wives go to Bongor, Wales to attend a seminar by <a
+                            href={"https://en.wikipedia.org/wiki/Maharishi_Mahesh_Yogi"} target="_blank">Maharishi
+                            Mahesh Yogi</a>.
+                        </li>
+                        <li>August 27: Brian Epstein is found dead in his London home. after hearing the news, the
+                            Beatles leave the seminar.
+                        </li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>November</p>
+                        <li>November 24: "Hello, Goodbye" / "I Am the Walrus" is released as a single.</li>
+
+                        <li>November 27: <a href={"https://en.wikipedia.org/wiki/Magical_Mystery_Tour"} target="_blank">Magical
+                            Mystery Tour</a> (album) is released (9. Studio Album).
+                        </li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/t1Jm5epJr10?si=2j5bhBuMh1dLus_Z"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <h3>1968</h3>
+                        <hr></hr>
+                        <br></br>
+
+                        <p style={{fontWeight: "bold"}}>February</p>
+                        <li>February 15: The Harrisons and Lennons leave London on their way to Rishikesh, India, for a
+                            retreat with the Maharishi.
+                        </li>
+                        <li>February 19: McCartney, Donovan and the Starrs fly from London to Rishikesh.</li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>March</p>
+                        <li>March 1:The Starrs leave the Rishikesh retreat much earlier than expected, they muss their
+                            children and Ringo is not satisfied with the food. :)
+                        </li>
+                        <li>March 15: "Lady Madonna" / "The Inner Light" is released as a single.</li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/sa3948JzWCc?si=vSTOPOEJ-4Jnvnwn"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <li>March mid: McCartney and Asher leave the Rishikesh retreat.</li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>April</p>
+                        <li>April 12: The Harrisons and Lennons leave the Rishikesh retreat amid a controversy about the
+                            behaviour of the Maharishi.
+                        </li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>May</p>
+                        <li>May 11: McCartney and Lennon begin a four-day trip to New York for the public unveiling of
+                            the Beatles new business venture, Apple Corps.
+                        </li>
+                        <li>May 28: The Beatles begin a two day recording session, the so-called Kinfauns demos, at
+                            Harrison's house in preparation for their next album (White Album).
+                        </li>
+                        <li>May 30: The Beatles start recording sessions for their slef-titled double album (White
+                            Album), and the "Hey Jude" / "Revolution" single. These recording sessions end on 14.
+                            October.
+                        </li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>July</p>
+                        <li>The<a href={"https://en.wikipedia.org/wiki/Yellow_Submarine_(film)"} target="_blank">Yellow
+                            Submarine</a> movie is released.
+                        </li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/LgR6UNeQxXE?si=rEyVbNwkzVTXNpnR"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>August</p>
+                        <li>August 22Ringo Starr quits the group, due to feeling neglected and disconnected from the
+                            other members but retuns two weeks later.
+                        </li>
+
+                        <li>August 26: "Hey Jude" / "Revolution" is released.</li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/BGLGzRXY5Bw?si=ID7gxvtBepJlAClV"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>November</p>
+                        <li>November 8: John and Cynthia Lennon's get divorced.</li>
+                        <li><a href={"https://en.wikipedia.org/wiki/The_Beatles_(album)"} target="_blank">The
+                            Beatles</a> is released. (10. Studio Album)
+                        </li>
+
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/vdvnOH060Qg?si=OyOEZFfIjJxJaFvu"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe><br/><br/>
+
+                        <h3>1969</h3>
+                        <hr></hr>
+                        <br></br>
 
                     </ul>
                 </p>
