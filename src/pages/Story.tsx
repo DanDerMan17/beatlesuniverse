@@ -700,7 +700,6 @@ export default function Story() {
                         <li><a href={"https://en.wikipedia.org/wiki/The_Beatles_(album)"} target="_blank">The
                             Beatles</a> is released. (10. Studio Album)
                         </li>
-
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/vdvnOH060Qg?si=OyOEZFfIjJxJaFvu"
                                 title="YouTube video player" frameBorder="0"
