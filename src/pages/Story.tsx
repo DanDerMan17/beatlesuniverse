@@ -705,11 +705,46 @@ export default function Story() {
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin"
-                                allowFullScreen></iframe><br/><br/>
+                                allowFullScreen></iframe>
+                        <br/><br/>
 
                         <h3>1969</h3>
                         <hr></hr>
                         <br></br>
+
+                        <p style={{fontWeight: "bold"}}>January</p>
+                        <li>January 2: The Beatles start the sessions for "Let It Be", their last album to be issued.
+                            They are filmed and recorded by Michael Lindsay-Hogg for a documentary.
+                        </li>
+                        <li>January 10: George Harrison quits the group but returns a few days later.</li>
+                        <li>January 13: Yellow Submarine released</li>
+                        <li>January 22: Billy Preston is invited to join the group as a temporary keyboard player</li>
+                        <li>January 30: The Beatles give their final public performance on the rooftop of the Apple
+                            offfices in Salvile Row. Joined by Billy Preston, they play nine songs in 42 minutes,
+                            including repeats of three songs.
+                        </li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>July</p>
+                        <li>July 1: The Beatles officially start the sessions for "Abbey Road", their last album to be
+                            recorded. These recording sessions end on 19 August.
+                        </li>
+                        <li>July 1: John Lennon, Yoko Ono and their children Juliand and Kyoko are in a car accident in Golspie, north Scotland.
+                        </li>
+                        <br/>
+
+                        <p style={{fontWeight: "bold"}}>August</p>
+                        <li>August 20: Final time the four Beatles are in the studio together, mixing and editing "I Want You(She's So Heavy)".</li>
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/tAe2Q_LhY8g?si=JNbAiKBVCxtGd-Kd"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
+                        <br/><br/>
+
+                        <p style={{fontWeight: "bold"}}>September</p>
+                        <li>September 26: Abbey Road released.</li>
 
                     </ul>
                 </p>
