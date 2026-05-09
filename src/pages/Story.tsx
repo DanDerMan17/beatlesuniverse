@@ -5,7 +5,7 @@ export default function Story() {
             <article>
 
                 <p>
-                    Welcome to my Website about the beatles! <br></br>
+                    Welcome to my Website about the Beatles! <br></br>
                     The best way to start our journey is to start with everything in chronological order! <br></br>
                     *Note: All the information is fact checked and this site purely consists of the factual events.
                 </p>

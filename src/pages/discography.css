@@ -1,0 +1,130 @@
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: sans-serif;
+    color: #111;
+}
+
+.album-cover {
+    display: flex;
+    justify-content: center;
+}
+
+/* Album section */
+.album {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.album:last-child {
+    border-bottom: none;
+}
+
+.album h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0 0 1rem;
+}
+
+/* YouTube embed */
+.album iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+/* Side label */
+.album section h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 1.5rem 0 0.5rem;
+}
+
+/* Tracklist table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+thead th {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0 10px 8px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+tbody tr {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+tbody tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 10px;
+}
+
+/* Track number */
+th.num,
+td.num {
+    width: 36px;
+    text-align: right;
+    color: #aaa;
+    font-size: 13px;
+    padding-right: 14px;
+}
+
+/* Track title */
+td.title {
+    font-weight: 500;
+}
+
+/* Vocalist */
+td.vocalist {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Length */
+th.length,
+td.length {
+    width: 60px;
+    text-align: right;
+    color: #888;
+    font-size: 13px;
+}
+
+/* Total length row */
+tr.total td {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #888;
+    text-align: right;
+}
+
+tr.total td.label {
+    text-align: left;
+    color: #888;
+}
+
+tbody tr:hover {
+    background-color: #f0f0f0;
+    cursor: default;
+    transition: background-color 0.15s ease;
+}
