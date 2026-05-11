@@ -1,0 +1,154 @@
+/* =============================================
+   Philosophy Page — Editorial / Vinyl-era Aesthetic
+   Inspired by 1960s record sleeve typography
+   ============================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --ink: #1a1208;
+    --paper: #f5f0e8;
+    --warm-mid: #8b7355;
+    --accent: #c0392b;
+    --rule: #d4c9b0;
+    --fade: #a89880;
+}
+
+/* ── Page Shell ── */
+.page {
+    min-height: 100vh;
+    background-color: var(--paper);
+    background-image:
+            repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 27px,
+                    rgba(139, 115, 85, 0.08) 27px,
+                    rgba(139, 115, 85, 0.08) 28px
+            );
+    padding: 4rem 1.5rem 6rem;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    color: var(--ink);
+}
+
+/* ── Section Heading ── */
+.page > h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(0.65rem, 1.5vw, 0.8rem);
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--warm-mid);
+    margin: 0 auto 3.5rem;
+    max-width: 680px;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+}
+
+.page > h2::before {
+    content: '◆';
+    font-size: 0.5rem;
+    color: var(--accent);
+    margin-right: 0.75em;
+    vertical-align: middle;
+}
+
+.page > h2::after {
+    content: '◆';
+    font-size: 0.5rem;
+    color: var(--accent);
+    margin-left: 0.75em;
+    vertical-align: middle;
+}
+
+/* ── Article ── */
+article {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+/* ── Article Title ── */
+article h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--ink);
+    margin: 0 0 2.5rem;
+    max-width: 540px;
+}
+
+/* ── Drop Cap on first paragraph ── */
+article p:first-of-type::first-letter {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 0.8;
+    float: left;
+    margin: 0.1em 0.12em 0 0;
+    color: var(--accent);
+}
+
+/* ── Body Paragraphs ── */
+article p {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    margin-bottom: 1.5rem;
+    color: var(--ink);
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* ── Italics (song/film titles) ── */
+article em {
+    font-style: italic;
+    color: #3d2b1f;
+}
+
+/* ── Divider ── */
+article hr {
+    border: none;
+    text-align: center;
+    margin: 2.5rem 0;
+    color: var(--fade);
+    font-size: 1rem;
+    letter-spacing: 0.5em;
+}
+
+article hr::before {
+    content: '· · ·';
+}
+
+/* ── Closing Reflection ── */
+article p.reflection {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-size: 1.08rem;
+    line-height: 1.9;
+    color: var(--warm-mid);
+    border-left: 3px solid var(--accent);
+    padding-left: 1.25rem;
+    margin-top: 0;
+    text-align: left;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+    .page {
+        padding: 2.5rem 1.25rem 4rem;
+    }
+
+    article h3 {
+        font-size: 1.6rem;
+    }
+
+    article p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    article p:first-of-type::first-letter {
+        font-size: 3.5rem;
+    }
+}
