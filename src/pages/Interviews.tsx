@@ -14,40 +14,55 @@ export default function Interviews() {
                                 referrerPolicy="strict-origin-when-cross-origin"
                                 allowFullScreen></iframe>
                     </p>
+                </section>
+            </article>
+
+            <br/><br/>
+
+            <article>
+                <section className="resource">
+                    <h3>Breakfast with the Beates</h3>
                     <p>
-                        adkasjdka
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/E7xZPeEpEH4?si=Mx-ewJniqH7sCNhf"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
                     </p>
                 </section>
             </article>
 
+            <br/><br/>
+
             <article>
                 <section className="resource">
-                    <h3>Resource Title 1</h3>
+                    <h3>Harrison in the Dick Cavett Show</h3>
                     <p>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            Link to interview/article
-                        </a>
-                    </p>
-                    <p>
-                        Explain why this interview is important and what insights it provides...
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/y_3vs3zFA3E?si=1g77AYq1hfQ4byOp"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
                     </p>
                 </section>
+            </article>
 
+            <br/><br/>
+
+            <article>
                 <section className="resource">
-                    <h3>Resource Title 2</h3>
+                    <h3>Lennon</h3>
                     <p>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            Link to interview/article
-                        </a>
-                    </p>
-                    <p>
-                        Your commentary on why this resource matters...
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/yoC83orA4ys?si=62i-exTTSRjVi0Ee"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen></iframe>
                     </p>
                 </section>
-
-                <p>
-                    <em>Add your favorite interviews, documentaries, and articles here...</em>
-                </p>
             </article>
         </div>
     )
