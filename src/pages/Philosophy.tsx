@@ -84,7 +84,7 @@ export default function Philosophy() {
                 <p>
                     LSD as the "wonderdrug" described by Harrison in the Dick Cavett show in the early 70s after they
                     broke up, changed their entire sound. Shifting from song like "She Loves You!" to a much more
-                    sophisticated direction, such as: "Strawberry Fields Forever", or "Lucy in the Sky with Diamonds" ->
+                    sophisticated direction, such as: "Strawberry Fields Forever", or "Lucy in the Sky with Diamonds",
                     which by the way spells LSD. The first ones to try the drug was, Harrison with Lennon. They shared a
                     dentist, and the Doctor invited them and their wives at the time for dinner. Not knowing, the Doctor
                     put LSD in their coffee, most likely to have an orgy with them, however the managed to get out of
